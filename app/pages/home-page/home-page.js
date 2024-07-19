@@ -8,6 +8,7 @@ class HomePage extends CellsPage {
   static get is() {
     return 'home-page';
   }
+
   static get properties() {
     return {
       title: { type: String },
@@ -79,6 +80,14 @@ class HomePage extends CellsPage {
         border-radius: 8px;
         padding: 16px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s, transform 0.3s; /* Transiciones para el color y el movimiento */
+
+      }
+
+      .pokemon-container:hover {
+        background: #e0f7fa; /* Color de fondo atractivo */
+        transform: translateY(-5px); /* Movimiento hacia arriba */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
       }
 
       .pokemon-image {
@@ -109,7 +118,8 @@ class HomePage extends CellsPage {
   }
 
   render() {
-    return html` <demo-app-template data-cells-type="template">
+    return html` 
+    <demo-app-template data-cells-type="template">
       <div slot="app-main-content">
       ${this._mainTpl}   
       ${this._listPokemonTpl}    
@@ -147,6 +157,13 @@ class HomePage extends CellsPage {
     </div>
     `;
   }
+
+  async goToEvolution(PokemonName) {
+    this.evolutions = [];
+    await this.getEvolutionsForPokemon(PokemonName);
+    this.navigate('evolution');
+  }
+
 
   goToHome() {
     this.navigate('home');

@@ -26,7 +26,6 @@ class EvolutionPage extends CellsPage {
     this.getBulbasaurEvolutions();
   }
 
-
   async getBulbasaurEvolutions() {
     try {
       const bulbasaurResponse = await fetch('https://pokeapi.co/api/v2/pokemon/1/');
