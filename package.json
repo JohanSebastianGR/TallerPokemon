@@ -1,0 +1,38 @@
+{
+  "name": "MyGoals",
+  "version": "0.1.0",
+  "keywords": [
+    "cells-app"
+  ],
+  "dependencies": {
+    "@bbva-experience-components/bbva-button-default": "^3.4.2",
+    "@bbva-web-components/bbva-button-default": "^5.15.15",
+    "@bbva-web-components/bbva-core-intl-mixin": "^1.5.4",
+    "@bbva-web-components/bbva-form-amount": "^3.19.0",
+    "@bbva-web-components/bbva-form-field": "^4.28.0",
+    "@bbva-web-components/bbva-foundations-grid-default-layout": "^1.0.1",
+    "@bbva-web-components/bbva-foundations-icons": "^1.16.0",
+    "@bbva-web-components/bbva-foundations-microillustrations": "^5.21.0",
+    "@bbva-web-components/bbva-header-main": "^7.8.9",
+    "@bbva-web-components/bbva-list-goal": "^6.21.0",
+    "@bbva-web-components/bbva-web-button-default": "^1.5.0",
+    "@bbva-web-components/bbva-web-form-password": "^1.2.0",
+    "@bbva-web-components/bbva-web-form-text": "^1.1.0",
+    "@bbva-web-components/bbva-web-link": "^1.6.1",
+    "@cells-components/cells-iconset-svg": "^1.2.23",
+    "@cells-components/coronita-icons": "^1.0.70",
+    "@cells-demo/demo-app-container": "^1.0.0",
+    "@cells-demo/demo-app-template": "^1.0.0",
+    "@cells-demo/demo-data-dm": "^1.0.0",
+    "@cells-demo/demo-web-template": "^1.1.0",
+    "@cells/cells-bridge": "^3.19.2",
+    "@cells/cells-element": "^1.5.0",
+    "@cells/cells-page": "^1.5.0",
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "cells-app-template": "^6.0.0",
+    "lit-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cells/cells-component-core": "^3.2.0"
+  }
+}

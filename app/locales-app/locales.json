@@ -1,0 +1,23 @@
+{
+  "es": {
+    "login-page.title": "Login",
+    "login-page.help": "Ayuda",
+    "login-page.user-input-label": "NIF, NIE, Tarjeta o Pasaporte",
+    "login-page.user-password-label": "Clave de acceso",
+    "login-page.forget-password": "¿Has olvidado tu clave de acceso?",
+    "login-page.button": "Iniciar sesión",
+    "login-page.client-button": "Hazte cliente"
+  },
+
+  "en": {
+    "login-page.title": "Login",
+    "login-page.help": "Help",
+    "login-page.user-input-label": "NIF, NIE, Card o Passport",
+    "login-page.user-password-label": "Password",
+    "login-page.forget-password": "Forgot password?",
+    "login-page.button": "Sign in",
+    "login-page.client-button": "Become a customer"
+  }
+}
+
+
